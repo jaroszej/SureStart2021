@@ -1,7 +1,7 @@
 # SureStart2021
 
 ## Responses
-### DAY 1 02/08/2021
+### DAY 1 Feb 02, 2021
 
 _What do I hope to gain from the SureStart program?_
 
