@@ -47,3 +47,12 @@ A key error that was made when training the model was that the data was not exam
 _Can you give a real-world example of a biased machine learning model, and share your ideas on how you make this model more fair, inclusive, and equitable? Please reflect on why you selected this specific biased model._
 
 According to [a study](https://science.sciencemag.org/content/366/6464/447.abstract) published in the American Association for the Advancement of Science, a decision making algorithm used to guide health decisions showed evidence of racial bias such that Black patients assigned the same level of risk by the algorithm are sicker than White patients. It was estimated to be biased this way due to less money being spent on Black patients who had the same level of need as White patients. The researchers believe removing the cost value from the algorithm would remove the racial bias. This removal would increase the percentage of Black patients receiving additional help from 17.7% to 46.5%. 
+
+_A Dive into Ethics: We must be mindful that AI and automated systems we train
+could potentially, likely accidentally,
+“learn” to be biased. Read [this article](http://gendershades.org/overview.html) and
+discuss some of the ways that you intend to avoid algorithmic bias when
+constructing AI projects._
+
+It seems imperative to check for biases in training datasets before they are given to models for training to validate biases are being screened and identified. The article shows the training data contained more males over females by nearly 10% and contained more lighter skin over darker skin by around 7%. These are significant amounts and clearly enough to ingrain bias in a model.  
+From my research, I have also found other inconspicuous variables to be related to these biases as well, such as using cost as a variable for a medical decision algorithm or using location to predict crime locations. These variables have latent reasons for their characteristics which can be rooted in stereotypical, prejudiced, and unjust history. It is important to consider these possibilities when implementing training data for ML and AI in projects. When models are being trained and biases are found to favor one subgroup over another it may even be fitting to create two separate models for each subgroup. Because these biases can have such a heavy impact on people in society, it is very important to recognize them before they are released to the public. 
