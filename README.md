@@ -69,3 +69,7 @@ _What are the advantages of the Rectified Linear (ReLU) activation function_
 
 The ReLU function is a piecewise linear function that outputs the input if it is positive and zero if it is negative. It is an activation function that performs better in models with many layers than other activation functions such as the sigmoid and hyperbolic tangent activation functions. This is because ReLU avoids the issue of vanishing gradients. Where other activation functions experience smaller and smaller gradients during backpropagation, ReLU will return either zero or the input, perfectly transferring gradients. This does however, introduce the "dead gradient" problem where gradients that hit zero will always transfer zero.
 ReLU functions are ideal for deep networks such as convolutional neural networks used for object detection in images, for example.
+
+### March 1, 2021
+_What are the ethical implications of big NLP models such as [GPT-2](https://openai.com/blog/better-language-models/)?_
+Big NLP models seem to be able to deliver results that could be convincing enough to fool people. While this can make for some revolutionary new tools it can also lead to a slew of troublesome behavior that should be scrutinized. These models could lead to more convincing false or misleading news stories, impersonation attempts, and automated production of phishing attempts. It will be important for people to keep a skeptical eye focused on stories they read on the internet and even through emails or through social media posts.
